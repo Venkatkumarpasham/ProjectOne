@@ -1,0 +1,29 @@
+#include<stdio.h>
+#include<string.h>
+void strrev (char s[]);
+int main()
+{
+ 	char s[]="Kumar";
+ 	strrev(s);
+ 	printf("%s",s);
+}
+void strrev(char s[])
+{
+ 	int j;
+ 	j = strrev(s) - 1;
+ 	int i=0,temp;
+ 	/*	for(i=0;s[i]!=0;i++)
+ 		{
+ 		printf("After revesring the elements\n");
+ 		}*/
+ 	for(i=0;i<j;j++,j--)
+ 	{
+ 		temp=s[i];
+ 		s[i]=s[j];
+ 		s[j]=temp;
+ 		//			printf("%s",s);
+ 	}
+
+ 	printf("%s\n",s);
+
+}
