@@ -14,7 +14,7 @@ void strrev(char s[])
  	int i=0,temp;
  	/*	for(i=0;s[i]!=0;i++)
  		{
- 		printf("After revesring the elements\n");
+ 		printf("After revesring the element\n");
  		}*/
  	for(i=0;i<j;j++,j--)
  	{
