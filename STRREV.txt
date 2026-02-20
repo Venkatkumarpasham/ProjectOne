@@ -3,7 +3,7 @@
 void strrev (char s[]);
 int main()
 {
- 	char s[]="Kumar";
+ 	char s[]="Vamsi";
  	strrev(s);
  	printf("%s",s);
 }
